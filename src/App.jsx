@@ -42,8 +42,8 @@ export default function App() {
           ></AgGridReact>
         </div>
       </div>
-      <div>
-        <div className="p fw-medium fs-4 my-0">
+      <div className="small">
+        <div className="p fw-medium fs-5 my-0">
           <u>Notes:</u>
         </div>
         <div className="ul my-2">
@@ -90,6 +90,17 @@ export default function App() {
           </div>
           <div className="li">Goal is 300 by 2030</div>
         </div>
+        <p>
+          <i>
+            For additional information, contact{" "}
+            <a
+              className="text-primary text-decoration-underline"
+              href="mailto:bethany.miller@eku.edu"
+            >
+              Bethany Miller
+            </a>
+          </i>
+        </p>
       </div>
     </>
   );
